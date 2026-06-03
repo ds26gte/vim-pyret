@@ -1,7 +1,7 @@
 " Vim indent file
 " Language:    Pyret
 " Maintainer:  Dorai Sitaram, ds26gte.github.io
-" Last Change: 2026-01-20
+" Last Change: 2026-06-03
 
 if exists("b:did_indent")
   finish
@@ -10,7 +10,7 @@ let b:did_indent = 1
 
 setl indentexpr=GetPyretIndent(v:lnum)
 
-setl indentkeys=0{,0},!,o,O,=\|,=else,=end
+setl indentkeys=0{,0},o,O,=\|,=else,=end
 
 if exists("*GetPyretIndent")
   finish
