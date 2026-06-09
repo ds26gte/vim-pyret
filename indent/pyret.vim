@@ -16,7 +16,7 @@ if exists("*GetPyretIndent")
   finish
 endif
 
-let s:pyretIndentOpeningWords = 'ask\|cases\|check\|data\(.*:\)\@=\|for\|fun\|if\|provide\|sharing\|switch\|try\|when\|while'
+let s:pyretIndentOpeningWords = 'ask\|cases\|check\|data\(\s\+[^\:]\+:\)\@=\|for\|fun\|if\|provide\|sharing\|switch\|try\|when\|while'
 
 let s:pyretIndentMiddleWords = 'else\|sharing\|where'
 
