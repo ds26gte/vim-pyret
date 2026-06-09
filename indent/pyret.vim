@@ -1,7 +1,7 @@
 " Vim indent file
 " Language:    Pyret
 " Maintainer:  Dorai Sitaram, ds26gte.github.io
-" Last Change: 2026-06-03
+" Last Change: 2026-06-09
 
 if exists("b:did_indent")
   finish
@@ -16,7 +16,7 @@ if exists("*GetPyretIndent")
   finish
 endif
 
-let s:pyretIndentOpeningWords = 'ask\|cases\|check\|data\|for\|fun\|if\|sharing\|switch\|try\|when\|while'
+let s:pyretIndentOpeningWords = 'ask\|cases\|check\|data\(.*:\)\@=\|for\|fun\|if\|provide\|sharing\|switch\|try\|when\|while'
 
 let s:pyretIndentMiddleWords = 'else\|sharing\|where'
 
